@@ -63,7 +63,7 @@ const NavSection = () => {
             ) : (
               <button
                 className="text-base font-semibold tracking-wide"
-                onClick={()=> route.push("/signin")}
+                onClick={()=> route.push("/singin")}
               >
                 Sign In
               </button>
