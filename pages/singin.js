@@ -6,7 +6,7 @@ import {
 import NavSection from '../components/NavSection';
 import Image from 'next/image';
 
-const signIn = ({ providers }) => {
+const SignIn = ({ providers }) => {
   return (
     <>
       <NavSection />
@@ -43,7 +43,7 @@ const signIn = ({ providers }) => {
   );
 };
 
-export default signIn;
+export default SignIn;
 
 export async function getServerSideProps(contex) {
   const providers = await getProviders();
